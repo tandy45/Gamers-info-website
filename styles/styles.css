@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page layout + colours */
+
+#head {
+    background-color: darkgrey;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+#content {
+
+    background-color: lightgrey;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#footer {
+    background-color: lightgrey;
+    clear: both;
+    margin-top: 10px;
+    text-align: center;
+}
+/* Text */
+
+/* Links */
+
+.links {
+
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.links li {
+    display: inline;
+    margin: 10px 10px;
+}
+
+.links a {
+    text-decoration: none;
+}
+/* Images */
+
+figure {
+    display: inline-block;
+    border: 1px dotted grey;
+}
+
+figure img {
+    vertical-align: top;
+    margin: 25px;
+}
+
+figure figcaption {
+
+    border: 1px dotted black;
+    text-align: center;
+}
